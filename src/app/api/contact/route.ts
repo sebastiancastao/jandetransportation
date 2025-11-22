@@ -25,7 +25,7 @@ export async function POST(request: Request) {
     await resend.emails.send({
       from: fromEmail,
       to: toEmail,
-      replyTo: email || undefined,
+      reply_to: email || undefined,
       subject: `New quote request from ${firstName} ${lastName}`,
       html: `
         <h2>New Quote Request</h2>
