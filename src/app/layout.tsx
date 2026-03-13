@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "J&E Express",
+  title: "J&E Express Transportation LLC",
   description: "Professional transportation and logistics services covering the North-East region of USA. Reliable, efficient, and cost-effective freight solutions.",
 };
 

@@ -108,7 +108,7 @@ export default function Home() {
               <div className="logo" aria-label="J&E Express Transportations">
                 <Image
                   src="/IMAGEN 12.png"
-                  alt="J&E Express Transportations"
+                  alt="J&E Express Transportation LLC"
                   width={160}
                   height={48}
                   className="h-12 w-auto"
@@ -222,7 +222,7 @@ export default function Home() {
               transition={{ duration: 1, delay: 0.4 }}
             >
               <span className="hero-title-gradient block">
-                {lang === 'en' ? 'J&E Express Transportations' : 'J&E Express Transportations'}
+                {lang === 'en' ? 'J&E Express Transportation LLC' : 'J&E Express Transportation LLC'}
               </span>
             </motion.h1>
 
